@@ -4,6 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
+  "C:/Users/miche/CLionProjects/untitled3/ MVS_FizzBuzz.c" "C:/Users/miche/CLionProjects/untitled3/cmake-build-debug/CMakeFiles/untitled3.dir/_MVS_FizzBuzz.c.obj"
   "C:/Users/miche/CLionProjects/untitled3/main.c" "C:/Users/miche/CLionProjects/untitled3/cmake-build-debug/CMakeFiles/untitled3.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
