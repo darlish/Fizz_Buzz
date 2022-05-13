@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/miche/CLionProjects/yannis/main.c
+stdio.h
+-
+stdlib.h
+-
+time.h
+-
+rubiks.c
+C:/Users/miche/CLionProjects/yannis/rubiks.c
+
+C:/Users/miche/CLionProjects/yannis/rubiks.c
+string.h
+-
+aclapi.h
+-
+rubiks.h
+C:/Users/miche/CLionProjects/yannis/rubiks.h
+stdio.h
+-
+stdlib.h
+-
+
+C:/Users/miche/CLionProjects/yannis/rubiks.h
+

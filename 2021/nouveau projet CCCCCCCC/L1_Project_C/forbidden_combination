@@ -1,0 +1,44 @@
+====================COULEUR===================
+6 fois chaque couleurs max.
+
+====================CENTRE====================
+- White
+- Orange
+- Green
+- Red
+- Blue
+- Yellow
+
+====================ARRETE====================
+- W.B | W.R | W.G | W.O  1
+- B.R | R.G | G.O | O.B  2
+- Y.B | Y.R | Y.G | Y.O  3
+--------------------LIEN-1--------------------
+Cube[0].Face[0][1] - Cube[4].Face[0][1]
+Cube[0].Face[1][0] - Cube[1].Face[0][1]
+Cube[0].Face[1][2] - Cube[0].Face[0][1]
+Cube[0].Face[2][1] - Cube[0].Face[0][1]
+--------------------LIEN-2--------------------
+Cube[1].Face[1][2] - Cube[0].Face[1][0]
+Cube[2].Face[1][2] - Cube[3].Face[1][0]
+Cube[3].Face[1][2] - Cube[4].Face[1][0]
+Cube[4].Face[1][2] - Cube[1].Face[1][0]
+--------------------LIEN-3--------------------
+Cube[5].Face[0][1] - Cube[2].Face[2][1]
+Cube[5].Face[1][0] - Cube[1].Face[2][1]
+Cube[5].Face[1][2] - Cube[3].Face[2][1]
+Cube[5].Face[2][1] - Cube[4].Face[2][1]
+
+===========================COINS============================
+- W.R.G | W.R.B | W.O.B | W.O.G
+- Y.R.G | Y.R.B | Y.O.B | Y.O.G
+---------------------------LIEN-1---------------------------
+Cube[0].Face[0][0] - Cube[1].Face[0][0] - Cube[4].Face[0][2]
+Cube[0].Face[0][2] - Cube[3].Face[0][2] - Cube[4].Face[0][0]
+Cube[0].Face[2][0] - Cube[1].Face[0][2] - Cube[2].Face[0][0]
+Cube[0].Face[2][2] - Cube[3].Face[0][0] - Cube[2].Face[0][2]
+---------------------------LIEN-2---------------------------
+Cube[5].Face[0][0] - Cube[1].Face[2][2] - Cube[2].Face[2][0]
+Cube[5].Face[0][2] - Cube[3].Face[2][0] - Cube[2].Face[2][2]
+Cube[5].Face[2][0] - Cube[1].Face[2][0] - Cube[4].Face[2][2]
+Cube[5].Face[2][2] - Cube[3].Face[2][2] - Cube[4].Face[2][0]

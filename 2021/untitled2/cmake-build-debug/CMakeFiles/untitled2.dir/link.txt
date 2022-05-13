@@ -1,0 +1,2 @@
+C:\MinGW\bin\ar.exe qc libuntitled2.a  CMakeFiles/untitled2.dir/library.c.obj
+C:\MinGW\bin\ranlib.exe libuntitled2.a
