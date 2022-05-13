@@ -142,6 +142,33 @@ untitled3/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/build
 .PHONY : untitled3/fast
 
+_MVS_FizzBuzz.obj: _MVS_FizzBuzz.c.obj
+
+.PHONY : _MVS_FizzBuzz.obj
+
+# target to build an object file
+_MVS_FizzBuzz.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/_MVS_FizzBuzz.c.obj
+.PHONY : _MVS_FizzBuzz.c.obj
+
+_MVS_FizzBuzz.i: _MVS_FizzBuzz.c.i
+
+.PHONY : _MVS_FizzBuzz.i
+
+# target to preprocess a source file
+_MVS_FizzBuzz.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/_MVS_FizzBuzz.c.i
+.PHONY : _MVS_FizzBuzz.c.i
+
+_MVS_FizzBuzz.s: _MVS_FizzBuzz.c.s
+
+.PHONY : _MVS_FizzBuzz.s
+
+# target to generate assembly for a file
+_MVS_FizzBuzz.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled3.dir\build.make CMakeFiles/untitled3.dir/_MVS_FizzBuzz.c.s
+.PHONY : _MVS_FizzBuzz.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -178,6 +205,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled3
+	@echo ... _MVS_FizzBuzz.obj
+	@echo ... _MVS_FizzBuzz.i
+	@echo ... _MVS_FizzBuzz.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

@@ -1,4 +1,5 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/untitled3.dir/_MVS_FizzBuzz.c.obj"
   "CMakeFiles/untitled3.dir/main.c.obj"
   "libuntitled3.dll.a"
   "untitled3.exe"

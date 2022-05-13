@@ -74,6 +74,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/miche/CLionProjects/untitled3/ MVS_FizzBuzz.c">
+			<Option target="untitled3"/>
+		</Unit>
+		<Unit filename="C:/Users/miche/CLionProjects/untitled3/MVS_FizzBuzz.h">
+			<Option target="untitled3"/>
+		</Unit>
 		<Unit filename="C:/Users/miche/CLionProjects/untitled3/main.c">
 			<Option target="untitled3"/>
 		</Unit>
